@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-react-2023",
+  "version": "1.0.0",
+  "description": "Bootcamp React 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://umane.everis.com/git/INIFORMAT/bootcamp-react-2023.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Norberto Oscar Ledo",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
