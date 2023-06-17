@@ -1,0 +1,42 @@
+.keys-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    max-width: 450px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 4em
+}
+.keys-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    gap: 10px;
+}
+
+.keys-button{
+    height: 60px;
+    margin: 2em 0;
+    font-weight: bold;
+    font-size: large;
+    flex-grow: 1;
+}
+
+.keys-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.keys-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size:larger
+}
+
+.item-selected{
+    border: 2px solid white;
+}

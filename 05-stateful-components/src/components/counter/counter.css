@@ -1,0 +1,38 @@
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    max-width: 300px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 4em
+}
+
+.counter-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(2, 41, 59);
+    border-radius: 8px;
+    border: 2px dotted rgb(71, 82, 117);
+    margin: 10px;
+
+}
+.counter-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.counter-button{
+    width: 100%;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+}

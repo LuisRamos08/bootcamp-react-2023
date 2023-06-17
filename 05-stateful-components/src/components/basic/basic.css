@@ -1,0 +1,49 @@
+.basic-loading{
+    height: 100px;
+    
+}
+.basic-item-container{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.basic-render-container{
+    background-color: rgb(6, 32, 31);
+    border: 1px solid rgb(20, 75, 72);
+    padding: 3em;
+    border-radius: 8px;
+    
+}
+.basic-render-list{
+    margin-top: 2em;
+    text-align: left;
+    font-size: x-large;
+    list-style-type: none;
+    line-height: 50px;
+}
+.basic-conditional-container{
+    background-color: rgb(31, 78, 49);
+    border: 1px solid rgb(77, 126, 99);
+    padding: 3em;
+    border-radius: 8px;
+}
+.basic-conditional-button{
+    margin: 2em 0;
+}
+.basic-conditional-element{
+    background-color: rgb(216, 116, 2);
+    padding: 3em;
+    border-radius: 8px;
+}
+
+.basic-rerender-container{
+    background-color: rgb(31, 78, 49);
+    border: 1px solid rgb(77, 126, 99);
+    padding: 3em;
+    border-radius: 8px;
+}
+.basic-rerender-title{
+    
+    margin-bottom: 30px;
+}
